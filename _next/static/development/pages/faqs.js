@@ -141,9 +141,9 @@ function (_Component) {
         },
         __self: this
       })), this.props.bg ? react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        id: "4251547023",
+        id: "2734003368",
         __self: this
-      }, "#App{background:linear-gradient( rgba(255,255,255,0.1), rgba(255,255,255,0.8) ), #fff url(\"/static/images/hexagons.jpg\") no-repeat;background-position:right;background-size:contain;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcY2hjZXBlXFxEZXNrdG9wXFxQcm9qZWN0c1xccGhvZWJlLXJlYWN0XFxjb21wb25lbnRzXFxQYWdlTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXdCNkIsQUFPa0UsOEhBQ3pCLDBCQUNGLHdCQUMxQiIsImZpbGUiOiJDOlxcVXNlcnNcXGNoY2VwZVxcRGVza3RvcFxcUHJvamVjdHNcXHBob2ViZS1yZWFjdFxcY29tcG9uZW50c1xcUGFnZUxheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBDb21wb25lbnQgfSBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xyXG5pbXBvcnQgU2lkZWJhciBmcm9tIFwiLi9TaWRlYmFyXCI7XHJcbmltcG9ydCBcIi4uL3N0YXRpYy9jc3Mvc2lkZWJhci5jc3NcIjtcclxuXHJcbmNsYXNzIFBhZ2VMYXlvdXQgZXh0ZW5kcyBDb21wb25lbnQge1xyXG4gIHN0YXRlID0ge1xyXG4gICAgc2lkZWJhcjogZmFsc2VcclxuICB9O1xyXG4gIHJlbmRlcigpIHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgIDxkaXYgaWQ9XCJBcHBcIj5cclxuICAgICAgICA8SGVhZD5cclxuICAgICAgICAgIDx0aXRsZT57dGhpcy5wcm9wcy50aXRsZX08L3RpdGxlPlxyXG4gICAgICAgICAgPG1ldGFcclxuICAgICAgICAgICAgbmFtZT1cInZpZXdwb3J0XCJcclxuICAgICAgICAgICAgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLCBzaHJpbmstdG8tZml0PW5vXCJcclxuICAgICAgICAgIC8+XHJcbiAgICAgICAgICA8bGlua1xyXG4gICAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAgICAgaHJlZj1cIi8vY2RuLmpzZGVsaXZyLm5ldC9ucG0vc2VtYW50aWMtdWlAMi40LjIvZGlzdC9zZW1hbnRpYy5taW4uY3NzXCJcclxuICAgICAgICAgIC8+XHJcbiAgICAgICAgPC9IZWFkPlxyXG4gICAgICAgIHt0aGlzLnByb3BzLmJnID8gKFxyXG4gICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgI0FwcCB7XHJcbiAgICAgICAgICAgICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KFxyXG4gICAgICAgICAgICAgICAgICByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMSksXHJcbiAgICAgICAgICAgICAgICAgIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC44KVxyXG4gICAgICAgICAgICAgICAgKSxcclxuICAgICAgICAgICAgICAgICNmZmYgdXJsKFwiL3N0YXRpYy9pbWFnZXMvaGV4YWdvbnMuanBnXCIpIG5vLXJlcGVhdDtcclxuICAgICAgICAgICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiByaWdodDtcclxuICAgICAgICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW47XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICApIDogKFxyXG4gICAgICAgICAgXCJcIlxyXG4gICAgICAgICl9XHJcblxyXG4gICAgICAgIDxTaWRlYmFyXHJcbiAgICAgICAgICBpc09wZW49e3RoaXMuc3RhdGUuc2lkZWJhcn1cclxuICAgICAgICAgIHBhZ2VXcmFwSWQ9e1wibWFpbi1jb250ZW50XCJ9XHJcbiAgICAgICAgICBvdXRlckNvbnRhaW5lcklkPXtcIkFwcFwifVxyXG4gICAgICAgIC8+XHJcbiAgICAgICAgPGRpdiBpZD1cIm1haW4tY29udGVudFwiPnt0aGlzLnByb3BzLmNoaWxkcmVufTwvZGl2PlxyXG4gICAgICA8L2Rpdj5cclxuICAgICk7XHJcbiAgfVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBQYWdlTGF5b3V0O1xyXG4iXX0= */\n/*@ sourceURL=C:\\Users\\chcepe\\Desktop\\Projects\\phoebe-react\\components\\PageLayout.js */") : "", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Sidebar__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }, "#App{background:linear-gradient( rgba(255,255,255,0.1), rgba(255,255,255,0.8) ), #fff url(\"../static/images/hexagons.jpg\") no-repeat;background-position:right;background-size:contain;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcY2hjZXBlXFxEZXNrdG9wXFxQcm9qZWN0c1xccGhvZWJlLXJlYWN0XFxjb21wb25lbnRzXFxQYWdlTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXdCNkIsQUFPb0UsZ0lBQzNCLDBCQUNGLHdCQUMxQiIsImZpbGUiOiJDOlxcVXNlcnNcXGNoY2VwZVxcRGVza3RvcFxcUHJvamVjdHNcXHBob2ViZS1yZWFjdFxcY29tcG9uZW50c1xcUGFnZUxheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBDb21wb25lbnQgfSBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xyXG5pbXBvcnQgU2lkZWJhciBmcm9tIFwiLi9TaWRlYmFyXCI7XHJcbmltcG9ydCBcIi4uL3N0YXRpYy9jc3Mvc2lkZWJhci5jc3NcIjtcclxuXHJcbmNsYXNzIFBhZ2VMYXlvdXQgZXh0ZW5kcyBDb21wb25lbnQge1xyXG4gIHN0YXRlID0ge1xyXG4gICAgc2lkZWJhcjogZmFsc2VcclxuICB9O1xyXG4gIHJlbmRlcigpIHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgIDxkaXYgaWQ9XCJBcHBcIj5cclxuICAgICAgICA8SGVhZD5cclxuICAgICAgICAgIDx0aXRsZT57dGhpcy5wcm9wcy50aXRsZX08L3RpdGxlPlxyXG4gICAgICAgICAgPG1ldGFcclxuICAgICAgICAgICAgbmFtZT1cInZpZXdwb3J0XCJcclxuICAgICAgICAgICAgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLCBzaHJpbmstdG8tZml0PW5vXCJcclxuICAgICAgICAgIC8+XHJcbiAgICAgICAgICA8bGlua1xyXG4gICAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAgICAgaHJlZj1cIi8vY2RuLmpzZGVsaXZyLm5ldC9ucG0vc2VtYW50aWMtdWlAMi40LjIvZGlzdC9zZW1hbnRpYy5taW4uY3NzXCJcclxuICAgICAgICAgIC8+XHJcbiAgICAgICAgPC9IZWFkPlxyXG4gICAgICAgIHt0aGlzLnByb3BzLmJnID8gKFxyXG4gICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgI0FwcCB7XHJcbiAgICAgICAgICAgICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KFxyXG4gICAgICAgICAgICAgICAgICByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMSksXHJcbiAgICAgICAgICAgICAgICAgIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC44KVxyXG4gICAgICAgICAgICAgICAgKSxcclxuICAgICAgICAgICAgICAgICNmZmYgdXJsKFwiLi4vc3RhdGljL2ltYWdlcy9oZXhhZ29ucy5qcGdcIikgbm8tcmVwZWF0O1xyXG4gICAgICAgICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IHJpZ2h0O1xyXG4gICAgICAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogY29udGFpbjtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICkgOiAoXHJcbiAgICAgICAgICBcIlwiXHJcbiAgICAgICAgKX1cclxuXHJcbiAgICAgICAgPFNpZGViYXJcclxuICAgICAgICAgIGlzT3Blbj17dGhpcy5zdGF0ZS5zaWRlYmFyfVxyXG4gICAgICAgICAgcGFnZVdyYXBJZD17XCJtYWluLWNvbnRlbnRcIn1cclxuICAgICAgICAgIG91dGVyQ29udGFpbmVySWQ9e1wiQXBwXCJ9XHJcbiAgICAgICAgLz5cclxuICAgICAgICA8ZGl2IGlkPVwibWFpbi1jb250ZW50XCI+e3RoaXMucHJvcHMuY2hpbGRyZW59PC9kaXY+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgKTtcclxuICB9XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IFBhZ2VMYXlvdXQ7XHJcbiJdfQ== */\n/*@ sourceURL=C:\\Users\\chcepe\\Desktop\\Projects\\phoebe-react\\components\\PageLayout.js */") : "", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Sidebar__WEBPACK_IMPORTED_MODULE_10__["default"], {
         isOpen: this.state.sidebar,
         pageWrapId: "main-content",
         outerContainerId: "App",
@@ -188,8 +188,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _env_config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../env-config */ "./env-config.js");
+/* harmony import */ var _env_config__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_env_config__WEBPACK_IMPORTED_MODULE_5__);
 
 var _jsxFileName = "C:\\Users\\chcepe\\Desktop\\Projects\\phoebe-react\\components\\Sidebar.js";
+
 
 
 
@@ -201,108 +204,123 @@ var sidebar = function sidebar(_ref) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_burger_menu__WEBPACK_IMPORTED_MODULE_2__["stack"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "/static/images/acn-white.png",
+    src: "../static/images/acn-white.png",
     className: "logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item ".concat(router.route == "/" ? "active" : ""),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/",
-    prefetch: true,
+    href: "".concat(_env_config__WEBPACK_IMPORTED_MODULE_5__["BACKEND_URL"], "/"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item ".concat(router.route == "/materials" ? "active" : ""),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/materials",
-    prefetch: true,
+    href: "".concat(_env_config__WEBPACK_IMPORTED_MODULE_5__["BACKEND_URL"], "/materials"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
   }, "Learning Materials")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item ".concat(router.route == "/feedback" ? "active" : ""),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "/feedback",
+    href: "".concat(_env_config__WEBPACK_IMPORTED_MODULE_5__["BACKEND_URL"], "/feedback"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 25
     },
     __self: this
   }, "Feedback")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item ".concat(router.route == "/faqs" ? "active" : ""),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/faqs",
+    href: "".concat(_env_config__WEBPACK_IMPORTED_MODULE_5__["BACKEND_URL"], "/faqs"),
     prefetch: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 28
     },
     __self: this
   }, "FAQs")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item ".concat(router.route == "/analytics" ? "active" : ""),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/analytics",
-    prefetch: true,
+    href: "".concat(_env_config__WEBPACK_IMPORTED_MODULE_5__["BACKEND_URL"], "/analytics"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 35
     },
     __self: this
   }, "Analytics")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_4__["withRouter"])(sidebar));
+
+/***/ }),
+
+/***/ "./env-config.js":
+/*!***********************!*\
+  !*** ./env-config.js ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var prod = "development" === "production";
+var BACKEND_URL = prod ? "/acn-phoebe-static" : "";
+module.exports = {
+  BACKEND_URL: BACKEND_URL
+};
 
 /***/ }),
 
@@ -65338,7 +65356,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 13:
+/***/ 9:
 /*!************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Ffaqs&absolutePagePath=C%3A%5CUsers%5Cchcepe%5CDesktop%5CProjects%5Cphoebe-react%5Cpages%5Cfaqs.js ***!
   \************************************************************************************************************************************************/
@@ -65361,5 +65379,5 @@ module.exports = dll_b2b8e59ef9fa131b70be;
 
 /***/ })
 
-},[[13,"static/runtime/webpack.js","styles"]]]));;
+},[[9,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=faqs.js.map

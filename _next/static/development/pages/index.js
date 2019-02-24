@@ -203,7 +203,7 @@ function (_Component) {
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(semantic_ui_react__WEBPACK_IMPORTED_MODULE_6__["Image"], {
-        src: "/static/images/ai-logo.png",
+        src: "../static/images/ai-logo.png",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 21
@@ -401,22 +401,22 @@ var instructors = [{
   name: "Jomar Abesamis",
   email: "jose.mari.c.abesamis@accenture.com",
   position: "AI Capability Lead",
-  image: "/static/images/instructors/jomar.png"
+  image: "../static/images/instructors/jomar.png"
 }, {
   name: "Arnold Alabastro",
   email: "arnold.j.c.alabastro@accenture.com",
   position: "AI M&O Manager",
-  image: "/static/images/instructors/arn.png"
+  image: "../static/images/instructors/arn.png"
 }, {
   name: "Michael Camba",
   email: "michael.a.t.camba@accenture.com",
   position: "Instructor, Demystifying AI, AI Hackathon",
-  image: "/static/images/instructors/chammy.png"
+  image: "../static/images/instructors/chammy.png"
 }, {
   name: "Ervin Jon Abril",
   email: "ervin.jon.a.abril@accenture.com",
   position: "Instructor, AI Engineering School",
-  image: "/static/images/instructors/ej.png"
+  image: "../static/images/instructors/ej.png"
 }];
 
 var Section2 =
@@ -846,9 +846,9 @@ function (_Component) {
         },
         __self: this
       })), this.props.bg ? react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        id: "4251547023",
+        id: "2734003368",
         __self: this
-      }, "#App{background:linear-gradient( rgba(255,255,255,0.1), rgba(255,255,255,0.8) ), #fff url(\"/static/images/hexagons.jpg\") no-repeat;background-position:right;background-size:contain;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcY2hjZXBlXFxEZXNrdG9wXFxQcm9qZWN0c1xccGhvZWJlLXJlYWN0XFxjb21wb25lbnRzXFxQYWdlTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXdCNkIsQUFPa0UsOEhBQ3pCLDBCQUNGLHdCQUMxQiIsImZpbGUiOiJDOlxcVXNlcnNcXGNoY2VwZVxcRGVza3RvcFxcUHJvamVjdHNcXHBob2ViZS1yZWFjdFxcY29tcG9uZW50c1xcUGFnZUxheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBDb21wb25lbnQgfSBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xyXG5pbXBvcnQgU2lkZWJhciBmcm9tIFwiLi9TaWRlYmFyXCI7XHJcbmltcG9ydCBcIi4uL3N0YXRpYy9jc3Mvc2lkZWJhci5jc3NcIjtcclxuXHJcbmNsYXNzIFBhZ2VMYXlvdXQgZXh0ZW5kcyBDb21wb25lbnQge1xyXG4gIHN0YXRlID0ge1xyXG4gICAgc2lkZWJhcjogZmFsc2VcclxuICB9O1xyXG4gIHJlbmRlcigpIHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgIDxkaXYgaWQ9XCJBcHBcIj5cclxuICAgICAgICA8SGVhZD5cclxuICAgICAgICAgIDx0aXRsZT57dGhpcy5wcm9wcy50aXRsZX08L3RpdGxlPlxyXG4gICAgICAgICAgPG1ldGFcclxuICAgICAgICAgICAgbmFtZT1cInZpZXdwb3J0XCJcclxuICAgICAgICAgICAgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLCBzaHJpbmstdG8tZml0PW5vXCJcclxuICAgICAgICAgIC8+XHJcbiAgICAgICAgICA8bGlua1xyXG4gICAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAgICAgaHJlZj1cIi8vY2RuLmpzZGVsaXZyLm5ldC9ucG0vc2VtYW50aWMtdWlAMi40LjIvZGlzdC9zZW1hbnRpYy5taW4uY3NzXCJcclxuICAgICAgICAgIC8+XHJcbiAgICAgICAgPC9IZWFkPlxyXG4gICAgICAgIHt0aGlzLnByb3BzLmJnID8gKFxyXG4gICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgI0FwcCB7XHJcbiAgICAgICAgICAgICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KFxyXG4gICAgICAgICAgICAgICAgICByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMSksXHJcbiAgICAgICAgICAgICAgICAgIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC44KVxyXG4gICAgICAgICAgICAgICAgKSxcclxuICAgICAgICAgICAgICAgICNmZmYgdXJsKFwiL3N0YXRpYy9pbWFnZXMvaGV4YWdvbnMuanBnXCIpIG5vLXJlcGVhdDtcclxuICAgICAgICAgICAgICBiYWNrZ3JvdW5kLXBvc2l0aW9uOiByaWdodDtcclxuICAgICAgICAgICAgICBiYWNrZ3JvdW5kLXNpemU6IGNvbnRhaW47XHJcbiAgICAgICAgICAgIH1cclxuICAgICAgICAgIGB9PC9zdHlsZT5cclxuICAgICAgICApIDogKFxyXG4gICAgICAgICAgXCJcIlxyXG4gICAgICAgICl9XHJcblxyXG4gICAgICAgIDxTaWRlYmFyXHJcbiAgICAgICAgICBpc09wZW49e3RoaXMuc3RhdGUuc2lkZWJhcn1cclxuICAgICAgICAgIHBhZ2VXcmFwSWQ9e1wibWFpbi1jb250ZW50XCJ9XHJcbiAgICAgICAgICBvdXRlckNvbnRhaW5lcklkPXtcIkFwcFwifVxyXG4gICAgICAgIC8+XHJcbiAgICAgICAgPGRpdiBpZD1cIm1haW4tY29udGVudFwiPnt0aGlzLnByb3BzLmNoaWxkcmVufTwvZGl2PlxyXG4gICAgICA8L2Rpdj5cclxuICAgICk7XHJcbiAgfVxyXG59XHJcblxyXG5leHBvcnQgZGVmYXVsdCBQYWdlTGF5b3V0O1xyXG4iXX0= */\n/*@ sourceURL=C:\\Users\\chcepe\\Desktop\\Projects\\phoebe-react\\components\\PageLayout.js */") : "", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Sidebar__WEBPACK_IMPORTED_MODULE_10__["default"], {
+      }, "#App{background:linear-gradient( rgba(255,255,255,0.1), rgba(255,255,255,0.8) ), #fff url(\"../static/images/hexagons.jpg\") no-repeat;background-position:right;background-size:contain;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcY2hjZXBlXFxEZXNrdG9wXFxQcm9qZWN0c1xccGhvZWJlLXJlYWN0XFxjb21wb25lbnRzXFxQYWdlTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXdCNkIsQUFPb0UsZ0lBQzNCLDBCQUNGLHdCQUMxQiIsImZpbGUiOiJDOlxcVXNlcnNcXGNoY2VwZVxcRGVza3RvcFxcUHJvamVjdHNcXHBob2ViZS1yZWFjdFxcY29tcG9uZW50c1xcUGFnZUxheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBDb21wb25lbnQgfSBmcm9tIFwicmVhY3RcIjtcclxuaW1wb3J0IEhlYWQgZnJvbSBcIm5leHQvaGVhZFwiO1xyXG5pbXBvcnQgU2lkZWJhciBmcm9tIFwiLi9TaWRlYmFyXCI7XHJcbmltcG9ydCBcIi4uL3N0YXRpYy9jc3Mvc2lkZWJhci5jc3NcIjtcclxuXHJcbmNsYXNzIFBhZ2VMYXlvdXQgZXh0ZW5kcyBDb21wb25lbnQge1xyXG4gIHN0YXRlID0ge1xyXG4gICAgc2lkZWJhcjogZmFsc2VcclxuICB9O1xyXG4gIHJlbmRlcigpIHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgIDxkaXYgaWQ9XCJBcHBcIj5cclxuICAgICAgICA8SGVhZD5cclxuICAgICAgICAgIDx0aXRsZT57dGhpcy5wcm9wcy50aXRsZX08L3RpdGxlPlxyXG4gICAgICAgICAgPG1ldGFcclxuICAgICAgICAgICAgbmFtZT1cInZpZXdwb3J0XCJcclxuICAgICAgICAgICAgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLCBzaHJpbmstdG8tZml0PW5vXCJcclxuICAgICAgICAgIC8+XHJcbiAgICAgICAgICA8bGlua1xyXG4gICAgICAgICAgICByZWw9XCJzdHlsZXNoZWV0XCJcclxuICAgICAgICAgICAgaHJlZj1cIi8vY2RuLmpzZGVsaXZyLm5ldC9ucG0vc2VtYW50aWMtdWlAMi40LjIvZGlzdC9zZW1hbnRpYy5taW4uY3NzXCJcclxuICAgICAgICAgIC8+XHJcbiAgICAgICAgPC9IZWFkPlxyXG4gICAgICAgIHt0aGlzLnByb3BzLmJnID8gKFxyXG4gICAgICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAgICAgI0FwcCB7XHJcbiAgICAgICAgICAgICAgYmFja2dyb3VuZDogbGluZWFyLWdyYWRpZW50KFxyXG4gICAgICAgICAgICAgICAgICByZ2JhKDI1NSwgMjU1LCAyNTUsIDAuMSksXHJcbiAgICAgICAgICAgICAgICAgIHJnYmEoMjU1LCAyNTUsIDI1NSwgMC44KVxyXG4gICAgICAgICAgICAgICAgKSxcclxuICAgICAgICAgICAgICAgICNmZmYgdXJsKFwiLi4vc3RhdGljL2ltYWdlcy9oZXhhZ29ucy5qcGdcIikgbm8tcmVwZWF0O1xyXG4gICAgICAgICAgICAgIGJhY2tncm91bmQtcG9zaXRpb246IHJpZ2h0O1xyXG4gICAgICAgICAgICAgIGJhY2tncm91bmQtc2l6ZTogY29udGFpbjtcclxuICAgICAgICAgICAgfVxyXG4gICAgICAgICAgYH08L3N0eWxlPlxyXG4gICAgICAgICkgOiAoXHJcbiAgICAgICAgICBcIlwiXHJcbiAgICAgICAgKX1cclxuXHJcbiAgICAgICAgPFNpZGViYXJcclxuICAgICAgICAgIGlzT3Blbj17dGhpcy5zdGF0ZS5zaWRlYmFyfVxyXG4gICAgICAgICAgcGFnZVdyYXBJZD17XCJtYWluLWNvbnRlbnRcIn1cclxuICAgICAgICAgIG91dGVyQ29udGFpbmVySWQ9e1wiQXBwXCJ9XHJcbiAgICAgICAgLz5cclxuICAgICAgICA8ZGl2IGlkPVwibWFpbi1jb250ZW50XCI+e3RoaXMucHJvcHMuY2hpbGRyZW59PC9kaXY+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgKTtcclxuICB9XHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IFBhZ2VMYXlvdXQ7XHJcbiJdfQ== */\n/*@ sourceURL=C:\\Users\\chcepe\\Desktop\\Projects\\phoebe-react\\components\\PageLayout.js */") : "", react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_Sidebar__WEBPACK_IMPORTED_MODULE_10__["default"], {
         isOpen: this.state.sidebar,
         pageWrapId: "main-content",
         outerContainerId: "App",
@@ -920,7 +920,7 @@ var sidebar = function sidebar(_ref) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: "/static/images/acn-white.png",
+    src: "../static/images/acn-white.png",
     className: "logo",
     __source: {
       fileName: _jsxFileName,
