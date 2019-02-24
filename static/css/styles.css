@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+html,
+body {
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+}
+#App {
+  transition: all ease-in 0.2s;
+}
+
+.learning-materials button {
+  margin: 2px 2px !important;
+}
+
+.learning-materials .segment {
+  opacity: 0.5 !important;
+  transition: all ease-in 0.2s;
+}
+
+.learning-materials .segment:hover {
+  opacity: 1 !important;
+}
+
+.ui.violet.button,
+.ui.violet.button:focus {
+  background: rgba(15, 21, 63, 1);
+}
+
+.ui.violet.button:hover {
+  background: rgb(12, 16, 48);
+}
+
+.next-section {
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+  left: 0;
+}
+
+.next-section > * {
+  cursor: pointer;
+}
+
+.next-section > *:hover {
+  opacity: 0.7;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}

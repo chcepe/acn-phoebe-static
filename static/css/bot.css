@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+}
+#webchat,
+#webchat > * {
+  height: 100%;
+  width: 100%;
+}
+
+#webchat .bubble {
+  border: 0 !important;
+}
+
+#webchat .bubble .markdown.custom {
+  border: 0 !important;
+}
+
+#webchat .bubble .markdown,
+#webchat .bubble .plain {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 10px 15px !important;
+}
+
+#webchat .from-user p {
+  background: rgba(24, 32, 94, 1);
+  color: #fff;
+  cursor: context-menu;
+}
+
+#webchat .from-user p:hover {
+  background: rgba(24, 32, 94, 0.9);
+}
+
+.ac-pushButton {
+  cursor: pointer !important;
+  background: rgba(24, 32, 94, 0.9) !important;
+  border: 2px solid rgba(24, 32, 94, 1) !important;
+  border-radius: 100px;
+  color: #fff !important;
+}
+
+.ac-pushButton:hover {
+  background: rgba(24, 32, 94, 1) !important;
+}
+
+#webchat .main > :first-child {
+  display: none;
+}
+
+#webchat label {
+  display: block;
+  cursor: pointer;
+}
+
+input[type="date"] {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+input::-webkit-datetime-edit-day-field:focus,
+input::-webkit-datetime-edit-month-field:focus,
+input::-webkit-datetime-edit-year-field:focus {
+  background-color: red;
+  color: white;
+  outline: none;
+}

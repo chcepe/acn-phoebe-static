@@ -1,0 +1,116 @@
+html,
+body {
+  margin: 0;
+}
+
+#App {
+  height: 100vh;
+}
+
+#main-content {
+  overflow: auto;
+  height: 100%;
+  min-height: 100%;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: linear-gradient(rgba(15, 21, 63, 1), rgba(15, 21, 63, 0.9)),
+    url("/static/images/sidebar-bg.jpg");
+  overflow: hidden !important;
+  background-position: center;
+  background-size: cover;
+  padding: 2.5em 1.5em 0;
+  font-size: 14px;
+}
+
+.bm-menu img {
+  max-height: 50px;
+}
+
+.bm-menu hr {
+  width: 100%;
+  margin-bottom: 20px;
+  border: none;
+  height: 1px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.bm-menu > nav {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.bm-menu .logo {
+  margin: auto;
+  display: block;
+}
+
+.bm-menu > nav > .menu-item > a {
+  width: 100%;
+  display: block;
+  color: #fff;
+  padding: 10px 5px;
+  border-left: 2px solid rgba(255, 255, 255, 0);
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  transition: all ease 0.2s;
+}
+
+.bm-menu > nav > .menu-item > a:hover,
+.bm-menu > nav > .menu-item.active > a {
+  background: rgba(0, 0, 0, 0.3);
+  border-left: 2px solid rgba(255, 255, 255, 1);
+}
+
+.bm-menu > nav > .menu-item {
+  display: block !important;
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(255, 255, 255, 0.8) !important;
+}

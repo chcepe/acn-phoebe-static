@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900");
+html,
+body {
+  font-family: "Lato", sans-serif !important;
+  overflow: hidden;
+}
+.center {
+  text-align: center;
+}
+.fw-bold {
+  font-weight: 900;
+}
+.bot-page {
+  background: rgba(24, 32, 94, 1);
+}
+.bot-page {
+  width: 100%;
+  height: 100%;
+  min-height: 100% !important;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.bot-page .message {
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 0;
+  padding: 20px;
+  border: 10px solid rgba(24, 32, 94, 1);
+  width: 510px;
+  position: relative;
+  padding-bottom: 30px;
+}
+.bot-page .message > p {
+  text-align: center;
+}
+.bot-page .vid-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bot-page .logo {
+  height: 50px;
+  position: absolute;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.bot-page .robot {
+  height: 300px;
+  position: absolute;
+  bottom: -25px;
+  right: -120px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+.wrapper-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bot-avatar {
+  transition: transform ease-in 0.2s;
+  cursor: pointer;
+  border-radius: 100%;
+  border: 2px solid #fff;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(70, 76, 126, 1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(70, 76, 126, 1);
+  box-shadow: 0px 0px 10px 0px rgba(70, 76, 126, 1);
+  z-index: 12;
+}
+.bot-avatar:hover {
+  transform: scale(1.2);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(70, 76, 126, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(70, 76, 126, 1);
+  box-shadow: 0px 0px 20px 0px rgba(70, 76, 126, 1);
+}
+.bot-window iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.chatbot-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(70, 76, 126, 0.7);
+  top: 0;
+  left: 0;
+  z-index: 11;
+}
+.chatbot-wrapper .bot-window {
+  padding: 10px;
+  position: absolute;
+  background: #fff;
+  width: 0;
+  height: 0;
+  bottom: 75px;
+  right: 75px;
+  border-radius: 12px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.loading {
+  background: url("/static/images/loading.gif") no-repeat rgba(24, 32, 94, 0.7);
+  background-size: 100px;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
