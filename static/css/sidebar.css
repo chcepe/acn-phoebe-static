@@ -43,7 +43,7 @@ body {
 /* General sidebar styles */
 .bm-menu {
   background: linear-gradient(rgba(15, 21, 63, 1), rgba(15, 21, 63, 0.9)),
-    url("/static/images/sidebar-bg.jpg");
+    url("../images/sidebar-bg.jpg");
   overflow: hidden !important;
   background-position: center;
   background-size: cover;

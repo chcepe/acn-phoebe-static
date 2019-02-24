@@ -893,8 +893,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! next/router */ "./node_modules/next/router.js");
 /* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _env_config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../env-config */ "./env-config.js");
+/* harmony import */ var _env_config__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_env_config__WEBPACK_IMPORTED_MODULE_5__);
 
 var _jsxFileName = "C:\\Users\\chcepe\\Desktop\\Projects\\phoebe-react\\components\\Sidebar.js";
+
 
 
 
@@ -906,14 +909,14 @@ var sidebar = function sidebar(_ref) {
   return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_burger_menu__WEBPACK_IMPORTED_MODULE_2__["stack"], Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, props, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 9
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 10
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
@@ -921,93 +924,108 @@ var sidebar = function sidebar(_ref) {
     className: "logo",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item ".concat(router.route == "/" ? "active" : ""),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/",
-    prefetch: true,
+    href: "".concat(_env_config__WEBPACK_IMPORTED_MODULE_5__["BACKEND_URL"], "/"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item ".concat(router.route == "/materials" ? "active" : ""),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/materials",
-    prefetch: true,
+    href: "".concat(_env_config__WEBPACK_IMPORTED_MODULE_5__["BACKEND_URL"], "/materials"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 20
     },
     __self: this
   }, "Learning Materials")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item ".concat(router.route == "/feedback" ? "active" : ""),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 22
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("a", {
-    href: "/feedback",
+    href: "".concat(_env_config__WEBPACK_IMPORTED_MODULE_5__["BACKEND_URL"], "/feedback"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 25
     },
     __self: this
   }, "Feedback")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item ".concat(router.route == "/faqs" ? "active" : ""),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/faqs",
+    href: "".concat(_env_config__WEBPACK_IMPORTED_MODULE_5__["BACKEND_URL"], "/faqs"),
     prefetch: true,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 31
+      lineNumber: 28
     },
     __self: this
   }, "FAQs")), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
     className: "menu-item ".concat(router.route == "/analytics" ? "active" : ""),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_3___default.a, {
-    href: "/analytics",
-    prefetch: true,
+    href: "".concat(_env_config__WEBPACK_IMPORTED_MODULE_5__["BACKEND_URL"], "/analytics"),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 35
     },
     __self: this
   }, "Analytics")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Object(next_router__WEBPACK_IMPORTED_MODULE_4__["withRouter"])(sidebar));
+
+/***/ }),
+
+/***/ "./env-config.js":
+/*!***********************!*\
+  !*** ./env-config.js ***!
+  \***********************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var prod = "development" === "production";
+var BACKEND_URL = prod ? "/acn-phoebe-static" : "";
+module.exports = {
+  BACKEND_URL: BACKEND_URL
+};
 
 /***/ }),
 
@@ -68323,7 +68341,7 @@ function (_Component) {
 
 /***/ }),
 
-/***/ 10:
+/***/ 1:
 /*!*********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CUsers%5Cchcepe%5CDesktop%5CProjects%5Cphoebe-react%5Cpages%5Cindex.js ***!
   \*********************************************************************************************************************************************/
@@ -68346,5 +68364,5 @@ module.exports = dll_b2b8e59ef9fa131b70be;
 
 /***/ })
 
-},[[10,"static/runtime/webpack.js","styles"]]]));;
+},[[1,"static/runtime/webpack.js","styles"]]]));;
 //# sourceMappingURL=index.js.map

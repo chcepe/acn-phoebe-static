@@ -2,28 +2,96 @@
 <html lang="en-US">
   <head>
     <title>Web Chat: Programmatic access to post activity</title>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+    ></script>
+    <script src="https://cdn.botframework.com/botframework-webchat/master/webchat.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bot.css" />
+
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
+      href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
     />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <style>
-      html,
       body {
         overflow-x: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-        min-height: 100%;
-      }
-      body {
-        font-family: "Roboto", sans-serif;
-        color: #fff;
-        background: rgba(24, 32, 94, 0.9);
       }
     </style>
   </head>
   <body>
-    Bot is disabled for demo
+    <div id="webchat" role="main"></div>
+    <script>
+      const token =
+        "k68afzhA-5s.cwA.eQg.E-Lo3uOfuIynbU8TpY6ucvHWPV2QpdX9isZnIpPMzX8";
+
+      const store = window.WebChat.createStore();
+      window.WebChat.renderWebChat(
+        {
+          directLine: window.WebChat.createDirectLine({ token }),
+          store
+        },
+        document.getElementById("webchat")
+      );
+
+      $(document).ready(function() {
+        // setTimeout(function() {
+        //   store.dispatch({
+        //     type: "WEB_CHAT/SEND_MESSAGE",
+        //     payload: { text: date }
+        //   });
+        // }, 1000);
+        setInterval(function() {
+          let date = Date.now();
+          $(`p:contains("***OpenCalendar")`).html(
+            `<div id="datepicker${date}"></div>`
+          );
+          $(`#datepicker${date}`).datepicker({
+            maxDate: "0",
+            selectWeek: true,
+            inline: true,
+            onSelect: function(date) {
+              store.dispatch({
+                type: "WEB_CHAT/SEND_MESSAGE",
+                payload: { text: date }
+              });
+            }
+          });
+          if ($(`p:contains("***Checkbox@")`).text()) {
+            const options = $(`p:contains("***Checkbox@")`)
+              .text()
+              .split("@")[1]
+              .split("|");
+            var checkboxes = "";
+            options.map(cb => {
+              checkboxes += `<label for="${cb}${Date.now()}"><input type="checkbox" value="${cb}" class="checkboxes" id="${cb}${Date.now()}"> ${cb}</label>`;
+            });
+            $(`p:contains("***Checkbox@")`).html(checkboxes);
+          }
+        }, 0);
+        $("body").on("change", "p:last .checkboxes", function(e) {
+          var checkedVals = $("p:last .checkboxes:checked")
+            .map(function() {
+              return this.value;
+            })
+            .get();
+          store.dispatch({
+            type: "WEB_CHAT/SET_SEND_BOX",
+            payload: { text: checkedVals.join(", ") }
+          });
+          $("form input").focus();
+        });
+        $("body").on("change", "p:last #calendar", function(e) {
+          $(this).blur();
+          $(this).attr("disabled", true);
+          store.dispatch({
+            type: "WEB_CHAT/SEND_MESSAGE",
+            payload: { text: $(this).val() }
+          });
+        });
+      });
+    </script>
   </body>
 </html>
